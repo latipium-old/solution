@@ -1,0 +1,18 @@
+[submodule "com/latipium/core"]
+	path = com/latipium/core
+	url = git@github.com:latipium/core.git
+[submodule "com/latipium/dev-tools"]
+	path = com/latipium/dev-tools
+	url = git@github.com:latipium/dev-tools.git
+[submodule "com/latipium/template"]
+	path = com/latipium/template
+	url = git@github.com:latipium/template.git
+[submodule "com/latipium/website/apis"]
+	path = com/latipium/website/apis
+	url = git@github.com:latipium/web-apis.git
+[submodule "com/latipium/website/apis-deploy"]
+	path = com/latipium/website/apis-deploy
+	url = git@github.com:latipium/web-apis-deploy.git
+[submodule "com/latipium/website/content"]
+	path = com/latipium/website/content
+	url = git@github.com:latipium/website.git

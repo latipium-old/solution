@@ -1,10 +1,84 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{9C376F36-DF69-4C0C-87CC-0E6CD725702F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Latipium.Core", "com\latipium\core\Com.Latipium.Core.csproj", "{78523371-9E06-4734-B1FA-B66FC4576EE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{8C6B1A92-6D2B-4810-A470-2DA4895EF7DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Latipium.DevTools", "com\latipium\dev-tools\Com.Latipium.DevTools.csproj", "{78523371-9E06-4734-B1FA-B66FC4576EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Latipium.Template", "com\latipium\template\Com.Latipium.Template.csproj", "{78523371-9E06-4734-B1FA-B66FC4576EE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{4DC7FE26-728D-491E-9CB7-26235A508A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Latipium.Website.Apis", "com\latipium\website\apis\Com.Latipium.Website.Apis.csproj", "{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Prerelease|Any CPU = Prerelease|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		AddMigration|Any CPU = AddMigration|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.AddMigration|Any CPU.ActiveCfg = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.AddMigration|Any CPU.ActiveCfg = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.AddMigration|Any CPU.ActiveCfg = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.AddMigration|Any CPU.Build.0 = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.AddMigration|Any CPU.Build.0 = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.AddMigration|Any CPU.Build.0 = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|x86.Build.0 = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|x86.Build.0 = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Debug|x86.Build.0 = Debug|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Prerelease|Any CPU.ActiveCfg = Prerelease|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Prerelease|Any CPU.ActiveCfg = Prerelease|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Prerelease|Any CPU.ActiveCfg = Prerelease|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Prerelease|Any CPU.Build.0 = Prerelease|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Prerelease|Any CPU.Build.0 = Prerelease|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Prerelease|Any CPU.Build.0 = Prerelease|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|x86.ActiveCfg = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|x86.ActiveCfg = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|x86.ActiveCfg = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|x86.Build.0 = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|x86.Build.0 = Release|Any CPU
+		{78523371-9E06-4734-B1FA-B66FC4576EE6}.Release|x86.Build.0 = Release|Any CPU
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.AddMigration|Any CPU.ActiveCfg = AddMigration|Any CPU
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.AddMigration|Any CPU.Build.0 = AddMigration|Any CPU
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.Debug|Any CPU.Build.0 = Debug|x86
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.Debug|x86.ActiveCfg = Debug|x86
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.Debug|x86.Build.0 = Debug|x86
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.Prerelease|Any CPU.ActiveCfg = Debug|x86
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.Prerelease|Any CPU.Build.0 = Debug|x86
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.Release|Any CPU.ActiveCfg = Release|x86
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.Release|Any CPU.Build.0 = Release|x86
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.Release|x86.ActiveCfg = Release|x86
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78523371-9E06-4734-B1FA-B66FC4576EE6} = {9C376F36-DF69-4C0C-87CC-0E6CD725702F}
+		{78523371-9E06-4734-B1FA-B66FC4576EE6} = {8C6B1A92-6D2B-4810-A470-2DA4895EF7DC}
+		{78523371-9E06-4734-B1FA-B66FC4576EE6} = {8C6B1A92-6D2B-4810-A470-2DA4895EF7DC}
+		{8500B6CA-57A3-44A1-A09A-62104EDCFD0F} = {4DC7FE26-728D-491E-9CB7-26235A508A7F}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
