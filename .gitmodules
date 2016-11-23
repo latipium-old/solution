@@ -16,3 +16,30 @@
 [submodule "com/latipium/website/content"]
 	path = com/latipium/website/content
 	url = git@github.com:latipium/website.git
+[submodule "com/latipium/defaults/graphics"]
+	path = com/latipium/defaults/graphics
+	url = git@github.com:latipium/default-graphics.git
+[submodule "com/latipium/defaults/io"]
+	path = com/latipium/defaults/io
+	url = git@github.com:latipium/default-io.git
+[submodule "com/latipium/defaults/physics"]
+	path = com/latipium/defaults/physics
+	url = git@github.com:latipium/default-physics.git
+[submodule "com/latipium/defaults/player"]
+	path = com/latipium/defaults/player
+	url = git@github.com:latipium/default-player.git
+[submodule "com/latipium/defaults/singleplayer"]
+	path = com/latipium/defaults/singleplayer
+	url = git@github.com:latipium/default-singleplayer.git
+[submodule "com/latipium/defaults/world"]
+	path = com/latipium/defaults/world
+	url = git@github.com:latipium/default-world.git
+[submodule "com/latipium/security"]
+	path = com/latipium/security
+	url = git@github.com:latipium/security.git
+[submodule "com/latipium/testingobjects"]
+	path = com/latipium/testingobjects
+	url = git@github.com:latipium/testing-objects.git
+[submodule "com/latipium/singleplayer"]
+	path = com/latipium/singleplayer
+	url = git@github.com:latipium/singleplayer.git
