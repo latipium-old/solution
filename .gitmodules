@@ -10,9 +10,6 @@
 [submodule "com/latipium/website/apis"]
 	path = com/latipium/website/apis
 	url = git@github.com:latipium/web-apis.git
-[submodule "com/latipium/website/apis-deploy"]
-	path = com/latipium/website/apis-deploy
-	url = git@github.com:latipium/web-apis-deploy.git
 [submodule "com/latipium/website/content"]
 	path = com/latipium/website/content
 	url = git@github.com:latipium/website.git
